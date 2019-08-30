@@ -1,0 +1,120 @@
+<!Doctype html>
+
+<html>
+<head>
+<body>
+	<form name ="calculate">
+
+	
+	
+<table>
+	
+	
+	<tr><input type="text" name="display"
+	id="display" disabled >
+	</tr>
+	
+
+		<tr>
+		<td><input 
+		type="button" name="one"
+	        value= "1"
+		onclick="calculate.display.value +='1'"></td>
+		<td><input 
+		type="button" name= "two"
+		value= "2"
+		onclick="calculate.display.value +='2'" ></td>
+		
+
+		<td><input
+		type ="button" name"three"
+                value= "3"
+		onclick="calculate.display.value +='3'"></td>
+
+	       <td><input
+		type= "button" name= "four"
+		value="4"
+		onclick="calculate.display.value +='4'"></td>
+		</tr>
+		
+		<tr>
+		<td><input
+		 type= 'button' name= "five" 
+		value="5"
+		onclick="calculate.display.value +='5'"></td>
+
+		<td><input 
+		type="button" name="six"
+	        value= "6"
+		onclick="calculate.display.value +='6'"></td>
+
+
+		<td><input 
+		type="button" name="seven"
+	        value= "7"
+		onclick="calculate.display.value +='7'"></td>
+
+
+		<td><input 
+		type="button" name="eight"
+	        value= "8"
+		onclick="calculate.display.value +='8'"></td>
+		</tr>
+
+		<tr>
+		<td><input 
+		type="button" name="nine"
+	        value= "9"
+		onclick="calculate.display.value +='9'"></td>
+
+
+		<td><input 
+		type="button" name="zero"
+	        value= "0"
+		onclick="calculate.display.value +='0'"></td>
+		
+		
+		<td><input 
+		type="button" class="operator"
+	        name='plus' value= "+"
+		onclick="calculate.display.value +='+'"></td>
+		
+		<td><input 
+		type="button" class="operator"
+	        name='minus' value= "-"
+		onclick="calculate.display.value +='-'"></td>
+		</tr>
+
+		<tr>
+		<td><input 
+		type="button" class="operator"
+	        name='division' value= "/"
+		onclick="calculate.display.value +='/'"></td>
+
+
+		<td><input 
+		type="button" class="operator"
+	        name="multiplication" value= "x"
+		onclick="calculate.display.value +='*'"></td>
+
+
+
+		<td><input 
+		type="button" 
+	        name="clear" value= "c"
+		onclick="calculate.display.value = ' '"></td>
+
+
+		<td>
+		<input type= "button"  name = "doit"
+		value= "="
+		onclick="calculate.display.value = eval(calculate.display.value)"></td>
+		
+		</tr>
+	
+
+	    </table>
+	</form>
+</body>
+</head>
+</html> 
